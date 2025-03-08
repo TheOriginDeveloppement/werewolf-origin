@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox fx:id="dayScreen" alignment="CENTER" spacing="10" style="-fx-background-color: #87CEEB; -fx-padding: 20;"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fr.theorigindev.werewolforigin.controllers.DayScreenController">
+    <Label text="Le soleil se lève sur le village..." style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+    <Label fx:id="dayLabel" text="Le village se réunit pour voter..." style="-fx-font-size: 14;"/>
+</VBox>

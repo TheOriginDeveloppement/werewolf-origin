@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+
+<VBox fx:id="startScreen" alignment="CENTER" spacing="10" style="-fx-background-color: #f0f0f0; -fx-padding: 20;"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fr.theorigindev.werewolforigin.controllers.StartScreenController">
+    <Label fx:id="startLabel" text="Bienvenue au village..." style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+    <ListView fx:id="playerList" prefHeight="200" style="-fx-font-size: 14;"/>
+    <Button fx:id="startButton" text="Démarrer la partie" style="-fx-font-size: 14; -fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+</VBox>
